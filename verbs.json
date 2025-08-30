@@ -1,0 +1,170 @@
+[
+{
+    "infinitive": "parlare",
+    "irregular": false,
+    "present": ["parlo","parli","parla","parliamo","parlate","parlano"],
+    "past": ["ho parlato","hai parlato","ha parlato","abbiamo parlato","avete parlato","hanno parlato"],
+    "imperative": ["parla","parlate"],
+    "translation": "talk"
+  },
+  {
+    "infinitive": "mangiare",
+    "irregular": false,
+    "present": ["mangio","mangi","mangia","mangiamo","mangiate","mangiano"],
+    "past": ["ho mangiato","hai mangiato","ha mangiato","abbiamo mangiato","avete mangiato","hanno mangiato"],
+    "imperative": ["mangia","mangiate"],
+    "translation": "eat"
+  },
+  {
+    "infinitive": "camminare",
+    "irregular": false,
+    "present": 
+["cammino","cammini","cammina","camminiamo","camminate","camminano"],
+    "past": 
+["ho camminato","hai camminato","ha camminato","abbiamo camminato","avete camminato","hanno camminato"],
+    "imperative": ["cammina","camminate"],
+    "translation": "walk"
+  },
+  {
+    "infinitive": "scrivere",
+    "irregular": false,
+    "present": ["scrivo","scrivi","scrive","scriviamo","scrivete","scrivono"],
+    "past": ["ho scritto","hai scritto","ha scritto","abbiamo scritto","avete scritto","hanno scritto"],
+    "imperative": ["scrivi","scrivete"],
+    "translation": "write"
+  },
+  {
+    "infinitive": "leggere",
+    "irregular": false,
+    "present": ["leggo","leggi","legge","leggiamo","leggete","leggono"],
+    "past": ["ho letto","hai letto","ha letto","abbiamo letto","avete letto","hanno letto"],
+    "imperative": ["leggi","leggete"],
+    "translation": "read"
+  },
+  {
+    "infinitive": "dormire",
+    "irregular": false,
+    "present": ["dormo","dormi","dorme","dormiamo","dormite","dormono"],
+    "past": ["ho dormito","hai dormito","ha dormito","abbiamo dormito","avete dormito","hanno dormito"],
+    "imperative": ["dormi","dormite"],
+    "translation": "sleep"
+  },
+  {
+    "infinitive": "lavorare",
+    "irregular": false,
+    "present": ["lavoro","lavori","lavoro","lavoriamo","lavorate","lavorano"],
+    "past": ["ho lavorato","hai lavorato","ha lavorato","abbiamo lavorato","avete lavorato","hanno lavorato"],
+    "imperative": ["lavoro","lavorate"],
+    "translation": "work"
+  },
+  {
+    "infinitive": "studiare",
+    "irregular": false,
+    "present": ["studio","studi","studia","studiamo","studiate","studiano"],
+    "past": ["ho studiato","hai studiato","ha studiato","abbiamo studiato","avete studiato","hanno studiato"],
+    "imperative": ["studia","studiate"],
+    "translation": "study"
+  },
+  {
+    "infinitive": "sentire",
+    "irregular": false,
+    "present": ["sento","senti","sente","sentiamo","sentite","sentono"],
+    "past": ["ho sentito","hai sentito","ha sentito","abbiamo sentito","avete sentito","hanno sentito"],
+    "imperative": ["senti","sentite"],
+    "translation": "hear"
+  },
+  {
+    "infinitive": "credere",
+    "irregular": false,
+    "present": ["credo","credi","crede","crediamo","crede","crede"],
+    "past": ["ho creduto","hai creduto","ha creduto","abbiamo creduto","avete creduto","hanno creduto"],
+    "imperative": ["credi","crede"],
+    "translation": "believe"
+  },
+  {
+    "infinitive": "chiudere",
+    "irregular": false,
+    "present": ["chiudo","chiudi","chiude","chiudiamo","chiudete","chiudono"],
+    "past": ["ho chiuso","hai chiuso","ha chiuso","abbiamo chiuso","avete chiuso","hanno chiuso"],
+    "imperative": ["chiudi","chiudete"],
+    "translation": "close"
+  },
+  {
+    "infinitive": "aprire",
+    "irregular": false,
+    "present": ["apro","apri","apre","apriamo","aprite","aprono"],
+    "past": ["ho aperto","hai aperto","ha aperto","abbiamo aperto","avete aperto","hanno aperto"],
+    "imperative": ["apri","aprite"],
+    "translation": "open"
+  },
+  {
+    "infinitive": "preferire",
+    "irregular": false,
+    "present": 
+["preferisco","preferisci","preferisce","preferiamo","preferite","preferiscono"],
+    "past": ["ho preferito","hai preferito","ha preferito","abbiamo preferito","avete preferito","hanno preferito"],
+    "imperative": ["preferisci","preferite"],
+    "translation": "prefer"
+  },
+  {
+    "infinitive": "guardare",
+    "irregular": false,
+    "present": ["guardo","guardi","guarda","guardiamo","guardate","guardano"],
+    "past": ["ho guardato","hai guardato","ha guardato","abbiamo guardato","avete guardato","hanno guardato"],
+    "imperative": ["guarda","guardate"],
+    "translation": "watch"
+  },
+  {
+    "infinitive": "dimenticare",
+    "irregular": false,
+    "present": 
+["dimentico","dimentichi","dimentica","dimentichiamo","dimenticate","dimenticano"],
+    "past": ["ho dimenticato","hai dimenticato","ha dimenticato","abbiamo dimenticato","avete dimenticato","hanno dimenticato"],
+    "imperative": ["dimentica","dimenticate"],
+    "translation": "forget"
+  },
+  {
+    "infinitive": "comprare",
+    "irregular": false,
+    "present": ["compro","compri","compra","compriamo","comprate","comprano"],
+    "past": ["ho comprato","hai comprato","ha comprato","abbiamo comprato","avete comprato","hanno comprato"],
+    "imperative": ["compra","comprate"],
+    "translation": "buy"
+  },
+  {
+    "infinitive": "pagare",
+    "irregular": false,
+    "present": ["pago","paghi","paga","paghiamo","pagate","pagano"],
+    "past": ["ho pagato","hai pagato","ha pagato","abbiamo pagato","avete pagato","hanno pagato"],
+    "imperative": ["paga","pagate"],
+    "translation": "pay"
+  },
+  {
+    "infinitive": "ascoltare",
+    "irregular": false,
+    "present": 
+["ascolto","ascolti","ascolta","ascoltiamo","ascoltate","ascoltano"],
+    "past": 
+["ho ascoltato","hai ascoltato","ha ascoltato","abbiamo ascoltato","avete ascoltato","hanno ascoltato"],
+    "imperative": ["ascolta","ascoltate"],
+    "translation": "listen"
+  },
+  {
+    "infinitive": "ricordare",
+    "irregular": false,
+    "present": 
+["ricordo","ricordi","ricorda","ricordiamo","ricordate","ricordano"],
+    "past": 
+["ho ricordato","hai ricordato","ha ricordato","abbiamo ricordato","avete ricordato","hanno ricordato"],
+    "imperative": ["ricorda","ricordate"],
+    "translation": "remember"
+  },
+  {
+    "infinitive": "prendere",
+    "irregular": false,
+    "present": ["prendo","prendi","prende","prendiamo","prendete","prendono"],
+    "past": ["ho preso","hai preso","ha preso","abbiamo preso","avete preso","hanno preso"],
+    "imperative": ["prendi","prendete"],
+    "translation": "take"
+  }
+]
