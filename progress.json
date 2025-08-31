@@ -26,5 +26,77 @@
         "attempts": 1
       }
     ]
+  },
+  "dormire": {
+    "lex": {
+      "en2it": {
+        "attempts": 1,
+        "correct": 1
+      }
+    }
+  },
+  "credere": {
+    "lex": {
+      "en2it": {
+        "attempts": 1,
+        "correct": 1
+      }
+    }
+  },
+  "ascoltare": {
+    "lex": {
+      "it2en": {
+        "attempts": 1,
+        "correct": 1
+      }
+    }
+  },
+  "mangiare": {
+    "lex": {
+      "en2it": {
+        "attempts": 1,
+        "correct": 1
+      }
+    }
+  },
+  "preferire": {
+    "lex": {
+      "en2it": {
+        "attempts": 1,
+        "correct": 1
+      }
+    }
+  },
+  "comprare": {
+    "lex": {
+      "en2it": {
+        "attempts": 1,
+        "correct": 1
+      }
+    }
+  },
+  "scrivere": {
+    "lex": {
+      "it2en": {
+        "attempts": 1,
+        "correct": 1
+      }
+    }
+  },
+  "guardare": {
+    "lex": {
+      "en2it": {
+        "attempts": 1,
+        "correct": 1
+      }
+    }
+  },
+  "ricordare": {
+    "lex": {
+      "it2en": {
+        "attempts": 1,
+        "correct": 1
+      }
+    }
   }
 }

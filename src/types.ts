@@ -23,9 +23,16 @@ export interface VerbProgress {
   present?: TenseStats;
   past?: TenseStats;
   future?: TenseStats;
+  // lexical mastery for infinitive translations (directional)
+  lex?: {
+    it2en?: ProgressCell; // given Italian, translate to English
+    en2it?: ProgressCell; // given English, produce Italian infinitive
+  };
 }
 
 export type Progress = Record<string, VerbProgress>;
+
+export type LexDir = 'it2en' | 'en2it';
 
 // Generic result of an exercise interaction
 export interface ExerciseResult {

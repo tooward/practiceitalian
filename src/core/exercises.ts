@@ -32,12 +32,16 @@ export class TranslationExercise implements Exercise {
     if (flip) {
       ctx.ui.println(`Italian word: ${verb.infinitive}`, 'yellow');
       const ans = await ctx.ui.prompt('Translate to English: ');
-      const ok = fuzzy(ans, verb.translation || '');
+  const ok = fuzzy(ans, verb.translation || '');
+      if (verb.translation) {
+        ctx.progress.updateLexical(verb.infinitive, 'it2en', ok);
+      }
       ctx.ui.println(ok ? '✔ Correct!' : `✘ Wrong – "${verb.translation}"`, ok ? 'green' : 'red');
     } else {
       ctx.ui.println(`English: ${verb.translation || '(no translation)'}`, 'cyan');
       const ans = await ctx.ui.prompt('Italian infinitive: ');
-      const ok = fuzzy(ans, verb.infinitive);
+  const ok = fuzzy(ans, verb.infinitive);
+      ctx.progress.updateLexical(verb.infinitive, 'en2it', ok);
       ctx.ui.println(ok ? '✔ Correct!' : `✘ Wrong – "${verb.infinitive}"`, ok ? 'green' : 'red');
     }
   }

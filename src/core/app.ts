@@ -7,7 +7,7 @@ import { ConjugationExercise, InfinitiveTypingExercise, TranslationExercise } fr
 import { Session } from './session';
 import { Tense } from '../types';
 import { FlowRunner } from './flow';
-import { FilterScene, MainMenuScene, SessionScene } from './scenes';
+import { FilterScene, MainMenuScene, SessionScene, WarmupOnlyScene } from './scenes';
 
 export class App {
   async run(
@@ -22,7 +22,7 @@ export class App {
     const scheduler = new Scheduler(progress);
 
     const verbs = repo.getAll();
-    const batch = scheduler.pickBatch(verbs, { tense, filter, batchSize: 10 });
+  const batch = scheduler.pickBatch(verbs, { tense, filter, batchSize: 10, preferLexicalAttempts: true });
 
     const exercises = [
       new InfinitiveTypingExercise(),
@@ -50,8 +50,36 @@ export class App {
     runner
       .register('main', () => new MainMenuScene(ui as UI))
       .register('filter', () => new FilterScene(ui as UI))
-      .register('session', () => new SessionScene(ui as UI, this));
+      .register('session', () => new SessionScene(ui as UI, this))
+      .register('warmup', () => new WarmupOnlyScene(ui as UI, this));
     await runner.start('main');
+    if (ownUI) ui.close();
+  }
+
+  async runWarmupOnly(ui?: UI): Promise<void> {
+    const ownUI = !ui;
+    ui = ui || new ConsoleUI();
+    const repo = new FileVerbRepository();
+    const progress = new JsonProgressStore();
+    const scheduler = new Scheduler(progress);
+
+    const verbs = repo.getAll();
+  const batch = scheduler.pickBatch(verbs, { tense: 'present', filter: 'all', batchSize: 10, preferLexicalAttempts: true });
+
+    const exercises = [
+      new InfinitiveTypingExercise(),
+      new TranslationExercise(),
+      // No ConjugationExercise here
+    ];
+
+    const session = new Session({
+      title: `Infinitive Warm-up` ,
+      batch,
+      exercises,
+      context: { ui, progress, tense: 'present' },
+    });
+
+    await session.run();
     if (ownUI) ui.close();
   }
 }
