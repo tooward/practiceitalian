@@ -5,6 +5,7 @@
     "present": ["parlo","parli","parla","parliamo","parlate","parlano"],
     "past": ["ho parlato","hai parlato","ha parlato","abbiamo parlato","avete parlato","hanno parlato"],
     "imperative": ["parla","parlate"],
+    "future": ["parlerò","parlerai","parlerà","parleremo","parlerete","parleranno"],
     "translation": "talk"
   },
   {
@@ -13,6 +14,7 @@
     "present": ["mangio","mangi","mangia","mangiamo","mangiate","mangiano"],
     "past": ["ho mangiato","hai mangiato","ha mangiato","abbiamo mangiato","avete mangiato","hanno mangiato"],
     "imperative": ["mangia","mangiate"],
+    "future": ["mangerò","mangerai","mangerà","mangeremo","mangerete","mangeranno"],
     "translation": "eat"
   },
   {
@@ -23,6 +25,7 @@
     "past": 
 ["ho camminato","hai camminato","ha camminato","abbiamo camminato","avete camminato","hanno camminato"],
     "imperative": ["cammina","camminate"],
+    "future": ["camminerò","camminerai","camminerà","cammineremo","camminerete","cammineranno"],
     "translation": "walk"
   },
   {
@@ -31,6 +34,7 @@
     "present": ["scrivo","scrivi","scrive","scriviamo","scrivete","scrivono"],
     "past": ["ho scritto","hai scritto","ha scritto","abbiamo scritto","avete scritto","hanno scritto"],
     "imperative": ["scrivi","scrivete"],
+    "future": ["scriverò","scriverai","scriverà","scriveremo","scriverete","scriveranno"],
     "translation": "write"
   },
   {
@@ -39,6 +43,7 @@
     "present": ["leggo","leggi","legge","leggiamo","leggete","leggono"],
     "past": ["ho letto","hai letto","ha letto","abbiamo letto","avete letto","hanno letto"],
     "imperative": ["leggi","leggete"],
+    "future": ["leggerò","leggerai","leggerà","leggeremo","leggerete","leggeranno"],
     "translation": "read"
   },
   {
@@ -47,6 +52,7 @@
     "present": ["dormo","dormi","dorme","dormiamo","dormite","dormono"],
     "past": ["ho dormito","hai dormito","ha dormito","abbiamo dormito","avete dormito","hanno dormito"],
     "imperative": ["dormi","dormite"],
+    "future": ["dormirò","dormirai","dormirà","dormiremo","dormirete","dormiranno"],
     "translation": "sleep"
   },
   {
@@ -55,6 +61,7 @@
     "present": ["lavoro","lavori","lavoro","lavoriamo","lavorate","lavorano"],
     "past": ["ho lavorato","hai lavorato","ha lavorato","abbiamo lavorato","avete lavorato","hanno lavorato"],
     "imperative": ["lavoro","lavorate"],
+    "future": ["lavorerò","lavorerai","lavorerà","lavoreremo","lavorerete","lavoreranno"],
     "translation": "work"
   },
   {
@@ -63,6 +70,7 @@
     "present": ["studio","studi","studia","studiamo","studiate","studiano"],
     "past": ["ho studiato","hai studiato","ha studiato","abbiamo studiato","avete studiato","hanno studiato"],
     "imperative": ["studia","studiate"],
+    "future": ["studierò","studierai","studierà","studieremo","studierete","studieranno"],
     "translation": "study"
   },
   {
@@ -71,6 +79,7 @@
     "present": ["sento","senti","sente","sentiamo","sentite","sentono"],
     "past": ["ho sentito","hai sentito","ha sentito","abbiamo sentito","avete sentito","hanno sentito"],
     "imperative": ["senti","sentite"],
+    "future": ["sentirò","sentirai","sentirà","sentiremo","sentirete","sentiranno"],
     "translation": "hear"
   },
   {
@@ -79,6 +88,7 @@
     "present": ["credo","credi","crede","crediamo","crede","crede"],
     "past": ["ho creduto","hai creduto","ha creduto","abbiamo creduto","avete creduto","hanno creduto"],
     "imperative": ["credi","crede"],
+    "future": ["crederò","crederai","crederà","crederemo","crederete","crederanno"],
     "translation": "believe"
   },
   {
@@ -87,6 +97,7 @@
     "present": ["chiudo","chiudi","chiude","chiudiamo","chiudete","chiudono"],
     "past": ["ho chiuso","hai chiuso","ha chiuso","abbiamo chiuso","avete chiuso","hanno chiuso"],
     "imperative": ["chiudi","chiudete"],
+    "future": ["chiuderò","chiuderai","chiuderà","chiuderemo","chiuderete","chiuderanno"],
     "translation": "close"
   },
   {
@@ -95,6 +106,7 @@
     "present": ["apro","apri","apre","apriamo","aprite","aprono"],
     "past": ["ho aperto","hai aperto","ha aperto","abbiamo aperto","avete aperto","hanno aperto"],
     "imperative": ["apri","aprite"],
+    "future": ["aprirò","aprirai","aprirà","apriremo","aprirete","apriranno"],
     "translation": "open"
   },
   {
@@ -104,6 +116,7 @@
 ["preferisco","preferisci","preferisce","preferiamo","preferite","preferiscono"],
     "past": ["ho preferito","hai preferito","ha preferito","abbiamo preferito","avete preferito","hanno preferito"],
     "imperative": ["preferisci","preferite"],
+    "future": ["preferirò","preferirai","preferirà","preferiremo","preferirete","preferiranno"],
     "translation": "prefer"
   },
   {
@@ -112,6 +125,7 @@
     "present": ["guardo","guardi","guarda","guardiamo","guardate","guardano"],
     "past": ["ho guardato","hai guardato","ha guardato","abbiamo guardato","avete guardato","hanno guardato"],
     "imperative": ["guarda","guardate"],
+    "future": ["guarderò","guarderai","guarderà","guarderemo","guarderete","guarderanno"],
     "translation": "watch"
   },
   {
@@ -121,6 +135,7 @@
 ["dimentico","dimentichi","dimentica","dimentichiamo","dimenticate","dimenticano"],
     "past": ["ho dimenticato","hai dimenticato","ha dimenticato","abbiamo dimenticato","avete dimenticato","hanno dimenticato"],
     "imperative": ["dimentica","dimenticate"],
+    "future": ["dimenticherò","dimenticherai","dimenticherà","dimenticheremo","dimenticherete","dimenticheranno"],
     "translation": "forget"
   },
   {
@@ -129,6 +144,7 @@
     "present": ["compro","compri","compra","compriamo","comprate","comprano"],
     "past": ["ho comprato","hai comprato","ha comprato","abbiamo comprato","avete comprato","hanno comprato"],
     "imperative": ["compra","comprate"],
+    "future": ["comprerò","comprerai","comprerà","compreremo","comprerete","compreranno"],
     "translation": "buy"
   },
   {
@@ -137,6 +153,7 @@
     "present": ["pago","paghi","paga","paghiamo","pagate","pagano"],
     "past": ["ho pagato","hai pagato","ha pagato","abbiamo pagato","avete pagato","hanno pagato"],
     "imperative": ["paga","pagate"],
+    "future": ["pagherò","pagherai","pagherà","pagheremo","pagherete","pagheranno"],
     "translation": "pay"
   },
   {
@@ -147,6 +164,7 @@
     "past": 
 ["ho ascoltato","hai ascoltato","ha ascoltato","abbiamo ascoltato","avete ascoltato","hanno ascoltato"],
     "imperative": ["ascolta","ascoltate"],
+    "future": ["ascolterò","ascolterai","ascolterà","ascolteremo","ascolterete","ascolteranno"],
     "translation": "listen"
   },
   {
@@ -157,6 +175,7 @@
     "past": 
 ["ho ricordato","hai ricordato","ha ricordato","abbiamo ricordato","avete ricordato","hanno ricordato"],
     "imperative": ["ricorda","ricordate"],
+    "future": ["ricorderò","ricorderai","ricorderà","ricorderemo","ricorderete","ricorderanno"],
     "translation": "remember"
   },
   {
@@ -165,6 +184,7 @@
     "present": ["prendo","prendi","prende","prendiamo","prendete","prendono"],
     "past": ["ho preso","hai preso","ha preso","abbiamo preso","avete preso","hanno preso"],
     "imperative": ["prendi","prendete"],
+    "future": ["prenderò","prenderai","prenderà","prenderemo","prenderete","prenderanno"],
     "translation": "take"
   }
 ]
