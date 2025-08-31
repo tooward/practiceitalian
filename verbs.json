@@ -1,190 +1,1652 @@
 [
-{
+  {
     "infinitive": "parlare",
     "irregular": false,
-    "present": ["parlo","parli","parla","parliamo","parlate","parlano"],
-    "past": ["ho parlato","hai parlato","ha parlato","abbiamo parlato","avete parlato","hanno parlato"],
-    "imperative": ["parla","parlate"],
-    "future": ["parlerò","parlerai","parlerà","parleremo","parlerete","parleranno"],
+    "present": [
+      "parlo",
+      "parli",
+      "parla",
+      "parliamo",
+      "parlate",
+      "parlano"
+    ],
+    "past": [
+      "ho parlato",
+      "hai parlato",
+      "ha parlato",
+      "abbiamo parlato",
+      "avete parlato",
+      "hanno parlato"
+    ],
+    "imperative": [
+      "parla",
+      "parlate"
+    ],
+    "future": [
+      "parlerò",
+      "parlerai",
+      "parlerà",
+      "parleremo",
+      "parlerete",
+      "parleranno"
+    ],
     "translation": "talk"
   },
   {
     "infinitive": "mangiare",
     "irregular": false,
-    "present": ["mangio","mangi","mangia","mangiamo","mangiate","mangiano"],
-    "past": ["ho mangiato","hai mangiato","ha mangiato","abbiamo mangiato","avete mangiato","hanno mangiato"],
-    "imperative": ["mangia","mangiate"],
-    "future": ["mangerò","mangerai","mangerà","mangeremo","mangerete","mangeranno"],
+    "present": [
+      "mangio",
+      "mangi",
+      "mangia",
+      "mangiamo",
+      "mangiate",
+      "mangiano"
+    ],
+    "past": [
+      "ho mangiato",
+      "hai mangiato",
+      "ha mangiato",
+      "abbiamo mangiato",
+      "avete mangiato",
+      "hanno mangiato"
+    ],
+    "imperative": [
+      "mangia",
+      "mangiate"
+    ],
+    "future": [
+      "mangerò",
+      "mangerai",
+      "mangerà",
+      "mangeremo",
+      "mangerete",
+      "mangeranno"
+    ],
     "translation": "eat"
   },
   {
     "infinitive": "camminare",
     "irregular": false,
-    "present": 
-["cammino","cammini","cammina","camminiamo","camminate","camminano"],
-    "past": 
-["ho camminato","hai camminato","ha camminato","abbiamo camminato","avete camminato","hanno camminato"],
-    "imperative": ["cammina","camminate"],
-    "future": ["camminerò","camminerai","camminerà","cammineremo","camminerete","cammineranno"],
+    "present": [
+      "cammino",
+      "cammini",
+      "cammina",
+      "camminiamo",
+      "camminate",
+      "camminano"
+    ],
+    "past": [
+      "ho camminato",
+      "hai camminato",
+      "ha camminato",
+      "abbiamo camminato",
+      "avete camminato",
+      "hanno camminato"
+    ],
+    "imperative": [
+      "cammina",
+      "camminate"
+    ],
+    "future": [
+      "camminerò",
+      "camminerai",
+      "camminerà",
+      "cammineremo",
+      "camminerete",
+      "cammineranno"
+    ],
     "translation": "walk"
   },
   {
     "infinitive": "scrivere",
     "irregular": false,
-    "present": ["scrivo","scrivi","scrive","scriviamo","scrivete","scrivono"],
-    "past": ["ho scritto","hai scritto","ha scritto","abbiamo scritto","avete scritto","hanno scritto"],
-    "imperative": ["scrivi","scrivete"],
-    "future": ["scriverò","scriverai","scriverà","scriveremo","scriverete","scriveranno"],
+    "present": [
+      "scrivo",
+      "scrivi",
+      "scrive",
+      "scriviamo",
+      "scrivete",
+      "scrivono"
+    ],
+    "past": [
+      "ho scritto",
+      "hai scritto",
+      "ha scritto",
+      "abbiamo scritto",
+      "avete scritto",
+      "hanno scritto"
+    ],
+    "imperative": [
+      "scrivi",
+      "scrivete"
+    ],
+    "future": [
+      "scriverò",
+      "scriverai",
+      "scriverà",
+      "scriveremo",
+      "scriverete",
+      "scriveranno"
+    ],
     "translation": "write"
   },
   {
     "infinitive": "leggere",
     "irregular": false,
-    "present": ["leggo","leggi","legge","leggiamo","leggete","leggono"],
-    "past": ["ho letto","hai letto","ha letto","abbiamo letto","avete letto","hanno letto"],
-    "imperative": ["leggi","leggete"],
-    "future": ["leggerò","leggerai","leggerà","leggeremo","leggerete","leggeranno"],
+    "present": [
+      "leggo",
+      "leggi",
+      "legge",
+      "leggiamo",
+      "leggete",
+      "leggono"
+    ],
+    "past": [
+      "ho letto",
+      "hai letto",
+      "ha letto",
+      "abbiamo letto",
+      "avete letto",
+      "hanno letto"
+    ],
+    "imperative": [
+      "leggi",
+      "leggete"
+    ],
+    "future": [
+      "leggerò",
+      "leggerai",
+      "leggerà",
+      "leggeremo",
+      "leggerete",
+      "leggeranno"
+    ],
     "translation": "read"
   },
   {
     "infinitive": "dormire",
     "irregular": false,
-    "present": ["dormo","dormi","dorme","dormiamo","dormite","dormono"],
-    "past": ["ho dormito","hai dormito","ha dormito","abbiamo dormito","avete dormito","hanno dormito"],
-    "imperative": ["dormi","dormite"],
-    "future": ["dormirò","dormirai","dormirà","dormiremo","dormirete","dormiranno"],
+    "present": [
+      "dormo",
+      "dormi",
+      "dorme",
+      "dormiamo",
+      "dormite",
+      "dormono"
+    ],
+    "past": [
+      "ho dormito",
+      "hai dormito",
+      "ha dormito",
+      "abbiamo dormito",
+      "avete dormito",
+      "hanno dormito"
+    ],
+    "imperative": [
+      "dormi",
+      "dormite"
+    ],
+    "future": [
+      "dormirò",
+      "dormirai",
+      "dormirà",
+      "dormiremo",
+      "dormirete",
+      "dormiranno"
+    ],
     "translation": "sleep"
   },
   {
     "infinitive": "lavorare",
     "irregular": false,
-    "present": ["lavoro","lavori","lavoro","lavoriamo","lavorate","lavorano"],
-    "past": ["ho lavorato","hai lavorato","ha lavorato","abbiamo lavorato","avete lavorato","hanno lavorato"],
-    "imperative": ["lavoro","lavorate"],
-    "future": ["lavorerò","lavorerai","lavorerà","lavoreremo","lavorerete","lavoreranno"],
+    "present": [
+      "lavoro",
+      "lavori",
+      "lavora",
+      "lavoriamo",
+      "lavorate",
+      "lavorano"
+    ],
+    "past": [
+      "ho lavorato",
+      "hai lavorato",
+      "ha lavorato",
+      "abbiamo lavorato",
+      "avete lavorato",
+      "hanno lavorato"
+    ],
+    "imperative": [
+      "lavora",
+      "lavorate"
+    ],
+    "future": [
+      "lavorerò",
+      "lavorerai",
+      "lavorerà",
+      "lavoreremo",
+      "lavorerete",
+      "lavoreranno"
+    ],
     "translation": "work"
   },
   {
     "infinitive": "studiare",
     "irregular": false,
-    "present": ["studio","studi","studia","studiamo","studiate","studiano"],
-    "past": ["ho studiato","hai studiato","ha studiato","abbiamo studiato","avete studiato","hanno studiato"],
-    "imperative": ["studia","studiate"],
-    "future": ["studierò","studierai","studierà","studieremo","studierete","studieranno"],
+    "present": [
+      "studio",
+      "studi",
+      "studia",
+      "studiamo",
+      "studiate",
+      "studiano"
+    ],
+    "past": [
+      "ho studiato",
+      "hai studiato",
+      "ha studiato",
+      "abbiamo studiato",
+      "avete studiato",
+      "hanno studiato"
+    ],
+    "imperative": [
+      "studia",
+      "studiate"
+    ],
+    "future": [
+      "studierò",
+      "studierai",
+      "studierà",
+      "studieremo",
+      "studierete",
+      "studieranno"
+    ],
     "translation": "study"
   },
   {
     "infinitive": "sentire",
     "irregular": false,
-    "present": ["sento","senti","sente","sentiamo","sentite","sentono"],
-    "past": ["ho sentito","hai sentito","ha sentito","abbiamo sentito","avete sentito","hanno sentito"],
-    "imperative": ["senti","sentite"],
-    "future": ["sentirò","sentirai","sentirà","sentiremo","sentirete","sentiranno"],
+    "present": [
+      "sento",
+      "senti",
+      "sente",
+      "sentiamo",
+      "sentite",
+      "sentono"
+    ],
+    "past": [
+      "ho sentito",
+      "hai sentito",
+      "ha sentito",
+      "abbiamo sentito",
+      "avete sentito",
+      "hanno sentito"
+    ],
+    "imperative": [
+      "senti",
+      "sentite"
+    ],
+    "future": [
+      "sentirò",
+      "sentirai",
+      "sentirà",
+      "sentiremo",
+      "sentirete",
+      "sentiranno"
+    ],
     "translation": "hear"
   },
   {
     "infinitive": "credere",
     "irregular": false,
-    "present": ["credo","credi","crede","crediamo","crede","crede"],
-    "past": ["ho creduto","hai creduto","ha creduto","abbiamo creduto","avete creduto","hanno creduto"],
-    "imperative": ["credi","crede"],
-    "future": ["crederò","crederai","crederà","crederemo","crederete","crederanno"],
+    "present": [
+      "credo",
+      "credi",
+      "crede",
+      "crediamo",
+      "credete",
+      "credono"
+    ],
+    "past": [
+      "ho creduto",
+      "hai creduto",
+      "ha creduto",
+      "abbiamo creduto",
+      "avete creduto",
+      "hanno creduto"
+    ],
+    "imperative": [
+      "credi",
+      "credete"
+    ],
+    "future": [
+      "crederò",
+      "crederai",
+      "crederà",
+      "crederemo",
+      "crederete",
+      "crederanno"
+    ],
     "translation": "believe"
   },
   {
     "infinitive": "chiudere",
     "irregular": false,
-    "present": ["chiudo","chiudi","chiude","chiudiamo","chiudete","chiudono"],
-    "past": ["ho chiuso","hai chiuso","ha chiuso","abbiamo chiuso","avete chiuso","hanno chiuso"],
-    "imperative": ["chiudi","chiudete"],
-    "future": ["chiuderò","chiuderai","chiuderà","chiuderemo","chiuderete","chiuderanno"],
+    "present": [
+      "chiudo",
+      "chiudi",
+      "chiude",
+      "chiudiamo",
+      "chiudete",
+      "chiudono"
+    ],
+    "past": [
+      "ho chiuso",
+      "hai chiuso",
+      "ha chiuso",
+      "abbiamo chiuso",
+      "avete chiuso",
+      "hanno chiuso"
+    ],
+    "imperative": [
+      "chiudi",
+      "chiudete"
+    ],
+    "future": [
+      "chiuderò",
+      "chiuderai",
+      "chiuderà",
+      "chiuderemo",
+      "chiuderete",
+      "chiuderanno"
+    ],
     "translation": "close"
   },
   {
     "infinitive": "aprire",
     "irregular": false,
-    "present": ["apro","apri","apre","apriamo","aprite","aprono"],
-    "past": ["ho aperto","hai aperto","ha aperto","abbiamo aperto","avete aperto","hanno aperto"],
-    "imperative": ["apri","aprite"],
-    "future": ["aprirò","aprirai","aprirà","apriremo","aprirete","apriranno"],
+    "present": [
+      "apro",
+      "apri",
+      "apre",
+      "apriamo",
+      "aprite",
+      "aprono"
+    ],
+    "past": [
+      "ho aperto",
+      "hai aperto",
+      "ha aperto",
+      "abbiamo aperto",
+      "avete aperto",
+      "hanno aperto"
+    ],
+    "imperative": [
+      "apri",
+      "aprite"
+    ],
+    "future": [
+      "aprirò",
+      "aprirai",
+      "aprirà",
+      "apriremo",
+      "aprirete",
+      "apriranno"
+    ],
     "translation": "open"
   },
   {
     "infinitive": "preferire",
     "irregular": false,
-    "present": 
-["preferisco","preferisci","preferisce","preferiamo","preferite","preferiscono"],
-    "past": ["ho preferito","hai preferito","ha preferito","abbiamo preferito","avete preferito","hanno preferito"],
-    "imperative": ["preferisci","preferite"],
-    "future": ["preferirò","preferirai","preferirà","preferiremo","preferirete","preferiranno"],
+    "present": [
+      "preferisco",
+      "preferisci",
+      "preferisce",
+      "preferiamo",
+      "preferite",
+      "preferiscono"
+    ],
+    "past": [
+      "ho preferito",
+      "hai preferito",
+      "ha preferito",
+      "abbiamo preferito",
+      "avete preferito",
+      "hanno preferito"
+    ],
+    "imperative": [
+      "preferisci",
+      "preferite"
+    ],
+    "future": [
+      "preferirò",
+      "preferirai",
+      "preferirà",
+      "preferiremo",
+      "preferirete",
+      "preferiranno"
+    ],
     "translation": "prefer"
   },
   {
     "infinitive": "guardare",
     "irregular": false,
-    "present": ["guardo","guardi","guarda","guardiamo","guardate","guardano"],
-    "past": ["ho guardato","hai guardato","ha guardato","abbiamo guardato","avete guardato","hanno guardato"],
-    "imperative": ["guarda","guardate"],
-    "future": ["guarderò","guarderai","guarderà","guarderemo","guarderete","guarderanno"],
+    "present": [
+      "guardo",
+      "guardi",
+      "guarda",
+      "guardiamo",
+      "guardate",
+      "guardano"
+    ],
+    "past": [
+      "ho guardato",
+      "hai guardato",
+      "ha guardato",
+      "abbiamo guardato",
+      "avete guardato",
+      "hanno guardato"
+    ],
+    "imperative": [
+      "guarda",
+      "guardate"
+    ],
+    "future": [
+      "guarderò",
+      "guarderai",
+      "guarderà",
+      "guarderemo",
+      "guarderete",
+      "guarderanno"
+    ],
     "translation": "watch"
   },
   {
     "infinitive": "dimenticare",
     "irregular": false,
-    "present": 
-["dimentico","dimentichi","dimentica","dimentichiamo","dimenticate","dimenticano"],
-    "past": ["ho dimenticato","hai dimenticato","ha dimenticato","abbiamo dimenticato","avete dimenticato","hanno dimenticato"],
-    "imperative": ["dimentica","dimenticate"],
-    "future": ["dimenticherò","dimenticherai","dimenticherà","dimenticheremo","dimenticherete","dimenticheranno"],
+    "present": [
+      "dimentico",
+      "dimentichi",
+      "dimentica",
+      "dimentichiamo",
+      "dimenticate",
+      "dimenticano"
+    ],
+    "past": [
+      "ho dimenticato",
+      "hai dimenticato",
+      "ha dimenticato",
+      "abbiamo dimenticato",
+      "avete dimenticato",
+      "hanno dimenticato"
+    ],
+    "imperative": [
+      "dimentica",
+      "dimenticate"
+    ],
+    "future": [
+      "dimenticherò",
+      "dimenticherai",
+      "dimenticherà",
+      "dimenticheremo",
+      "dimenticherete",
+      "dimenticheranno"
+    ],
     "translation": "forget"
   },
   {
     "infinitive": "comprare",
     "irregular": false,
-    "present": ["compro","compri","compra","compriamo","comprate","comprano"],
-    "past": ["ho comprato","hai comprato","ha comprato","abbiamo comprato","avete comprato","hanno comprato"],
-    "imperative": ["compra","comprate"],
-    "future": ["comprerò","comprerai","comprerà","compreremo","comprerete","compreranno"],
+    "present": [
+      "compro",
+      "compri",
+      "compra",
+      "compriamo",
+      "comprate",
+      "comprano"
+    ],
+    "past": [
+      "ho comprato",
+      "hai comprato",
+      "ha comprato",
+      "abbiamo comprato",
+      "avete comprato",
+      "hanno comprato"
+    ],
+    "imperative": [
+      "compra",
+      "comprate"
+    ],
+    "future": [
+      "comprerò",
+      "comprerai",
+      "comprerà",
+      "compreremo",
+      "comprerete",
+      "compreranno"
+    ],
     "translation": "buy"
   },
   {
     "infinitive": "pagare",
     "irregular": false,
-    "present": ["pago","paghi","paga","paghiamo","pagate","pagano"],
-    "past": ["ho pagato","hai pagato","ha pagato","abbiamo pagato","avete pagato","hanno pagato"],
-    "imperative": ["paga","pagate"],
-    "future": ["pagherò","pagherai","pagherà","pagheremo","pagherete","pagheranno"],
+    "present": [
+      "pago",
+      "paghi",
+      "paga",
+      "paghiamo",
+      "pagate",
+      "pagano"
+    ],
+    "past": [
+      "ho pagato",
+      "hai pagato",
+      "ha pagato",
+      "abbiamo pagato",
+      "avete pagato",
+      "hanno pagato"
+    ],
+    "imperative": [
+      "paga",
+      "pagate"
+    ],
+    "future": [
+      "pagherò",
+      "pagherai",
+      "pagherà",
+      "pagheremo",
+      "pagherete",
+      "pagheranno"
+    ],
     "translation": "pay"
   },
   {
     "infinitive": "ascoltare",
     "irregular": false,
-    "present": 
-["ascolto","ascolti","ascolta","ascoltiamo","ascoltate","ascoltano"],
-    "past": 
-["ho ascoltato","hai ascoltato","ha ascoltato","abbiamo ascoltato","avete ascoltato","hanno ascoltato"],
-    "imperative": ["ascolta","ascoltate"],
-    "future": ["ascolterò","ascolterai","ascolterà","ascolteremo","ascolterete","ascolteranno"],
+    "present": [
+      "ascolto",
+      "ascolti",
+      "ascolta",
+      "ascoltiamo",
+      "ascoltate",
+      "ascoltano"
+    ],
+    "past": [
+      "ho ascoltato",
+      "hai ascoltato",
+      "ha ascoltato",
+      "abbiamo ascoltato",
+      "avete ascoltato",
+      "hanno ascoltato"
+    ],
+    "imperative": [
+      "ascolta",
+      "ascoltate"
+    ],
+    "future": [
+      "ascolterò",
+      "ascolterai",
+      "ascolterà",
+      "ascolteremo",
+      "ascolterete",
+      "ascolteranno"
+    ],
     "translation": "listen"
   },
   {
     "infinitive": "ricordare",
     "irregular": false,
-    "present": 
-["ricordo","ricordi","ricorda","ricordiamo","ricordate","ricordano"],
-    "past": 
-["ho ricordato","hai ricordato","ha ricordato","abbiamo ricordato","avete ricordato","hanno ricordato"],
-    "imperative": ["ricorda","ricordate"],
-    "future": ["ricorderò","ricorderai","ricorderà","ricorderemo","ricorderete","ricorderanno"],
+    "present": [
+      "ricordo",
+      "ricordi",
+      "ricorda",
+      "ricordiamo",
+      "ricordate",
+      "ricordano"
+    ],
+    "past": [
+      "ho ricordato",
+      "hai ricordato",
+      "ha ricordato",
+      "abbiamo ricordato",
+      "avete ricordato",
+      "hanno ricordato"
+    ],
+    "imperative": [
+      "ricorda",
+      "ricordate"
+    ],
+    "future": [
+      "ricorderò",
+      "ricorderai",
+      "ricorderà",
+      "ricorderemo",
+      "ricorderete",
+      "ricorderanno"
+    ],
     "translation": "remember"
   },
   {
     "infinitive": "prendere",
     "irregular": false,
-    "present": ["prendo","prendi","prende","prendiamo","prendete","prendono"],
-    "past": ["ho preso","hai preso","ha preso","abbiamo preso","avete preso","hanno preso"],
-    "imperative": ["prendi","prendete"],
-    "future": ["prenderò","prenderai","prenderà","prenderemo","prenderete","prenderanno"],
+    "present": [
+      "prendo",
+      "prendi",
+      "prende",
+      "prendiamo",
+      "prendete",
+      "prendono"
+    ],
+    "past": [
+      "ho preso",
+      "hai preso",
+      "ha preso",
+      "abbiamo preso",
+      "avete preso",
+      "hanno preso"
+    ],
+    "imperative": [
+      "prendi",
+      "prendete"
+    ],
+    "future": [
+      "prenderò",
+      "prenderai",
+      "prenderà",
+      "prenderemo",
+      "prenderete",
+      "prenderanno"
+    ],
     "translation": "take"
+  },
+  {
+    "infinitive": "essere",
+    "irregular": true,
+    "present": [
+      "sono",
+      "sei",
+      "è",
+      "siamo",
+      "siete",
+      "sono"
+    ],
+    "past": [
+      "sono stato",
+      "sei stato",
+      "è stato",
+      "siamo stati",
+      "siete stati",
+      "sono stati"
+    ],
+    "imperative": [
+      "sii",
+      "siate"
+    ],
+    "future": [
+      "sarò",
+      "sarai",
+      "sarà",
+      "saremo",
+      "sarete",
+      "saranno"
+    ],
+    "translation": "be"
+  },
+  {
+    "infinitive": "avere",
+    "irregular": true,
+    "present": [
+      "ho",
+      "hai",
+      "ha",
+      "abbiamo",
+      "avete",
+      "hanno"
+    ],
+    "past": [
+      "ho avuto",
+      "hai avuto",
+      "ha avuto",
+      "abbiamo avuto",
+      "avete avuto",
+      "hanno avuto"
+    ],
+    "imperative": [
+      "abbi",
+      "abbiate"
+    ],
+    "future": [
+      "avrò",
+      "avrai",
+      "avrà",
+      "avremo",
+      "avrete",
+      "avranno"
+    ],
+    "translation": "have"
+  },
+  {
+    "infinitive": "andare",
+    "irregular": true,
+    "present": [
+      "vado",
+      "vai",
+      "va",
+      "andiamo",
+      "andate",
+      "vanno"
+    ],
+    "past": [
+      "sono andato",
+      "sei andato",
+      "è andato",
+      "siamo andati",
+      "siete andati",
+      "sono andati"
+    ],
+    "imperative": [
+      "vai",
+      "andate"
+    ],
+    "future": [
+      "andrò",
+      "andrai",
+      "andrà",
+      "andremo",
+      "andrete",
+      "andranno"
+    ],
+    "translation": "go"
+  },
+  {
+    "infinitive": "fare",
+    "irregular": true,
+    "present": [
+      "faccio",
+      "fai",
+      "fa",
+      "facciamo",
+      "fate",
+      "fanno"
+    ],
+    "past": [
+      "ho fatto",
+      "hai fatto",
+      "ha fatto",
+      "abbiamo fatto",
+      "avete fatto",
+      "hanno fatto"
+    ],
+    "imperative": [
+      "fai",
+      "fate"
+    ],
+    "future": [
+      "farò",
+      "farai",
+      "farà",
+      "faremo",
+      "farete",
+      "faranno"
+    ],
+    "translation": "do/make"
+  },
+  {
+    "infinitive": "dire",
+    "irregular": true,
+    "present": [
+      "dico",
+      "dici",
+      "dice",
+      "diciamo",
+      "dite",
+      "dicono"
+    ],
+    "past": [
+      "ho detto",
+      "hai detto",
+      "ha detto",
+      "abbiamo detto",
+      "avete detto",
+      "hanno detto"
+    ],
+    "imperative": [
+      "di'",
+      "dite"
+    ],
+    "future": [
+      "dirò",
+      "dirai",
+      "dirà",
+      "diremo",
+      "direte",
+      "diranno"
+    ],
+    "translation": "say"
+  },
+  {
+    "infinitive": "dare",
+    "irregular": true,
+    "present": [
+      "do",
+      "dai",
+      "dà",
+      "diamo",
+      "date",
+      "danno"
+    ],
+    "past": [
+      "ho dato",
+      "hai dato",
+      "ha dato",
+      "abbiamo dato",
+      "avete dato",
+      "hanno dato"
+    ],
+    "imperative": [
+      "dai",
+      "date"
+    ],
+    "future": [
+      "darò",
+      "darai",
+      "darà",
+      "daremo",
+      "darete",
+      "daranno"
+    ],
+    "translation": "give"
+  },
+  {
+    "infinitive": "stare",
+    "irregular": true,
+    "present": [
+      "sto",
+      "stai",
+      "sta",
+      "stiamo",
+      "state",
+      "stanno"
+    ],
+    "past": [
+      "sono stato",
+      "sei stato",
+      "è stato",
+      "siamo stati",
+      "siete stati",
+      "sono stati"
+    ],
+    "imperative": [
+      "stai",
+      "state"
+    ],
+    "future": [
+      "starò",
+      "starai",
+      "starà",
+      "staremo",
+      "starete",
+      "staranno"
+    ],
+    "translation": "stay/be (temporary)"
+  },
+  {
+    "infinitive": "vedere",
+    "irregular": false,
+    "present": [
+      "vedo",
+      "vedi",
+      "vede",
+      "vediamo",
+      "vedete",
+      "vedono"
+    ],
+    "past": [
+      "ho visto",
+      "hai visto",
+      "ha visto",
+      "abbiamo visto",
+      "avete visto",
+      "hanno visto"
+    ],
+    "imperative": [
+      "vedi",
+      "vedete"
+    ],
+    "future": [
+      "vedrò",
+      "vedrai",
+      "vedrà",
+      "vedremo",
+      "vedrete",
+      "vedranno"
+    ],
+    "translation": "see"
+  },
+  {
+    "infinitive": "venire",
+    "irregular": true,
+    "present": [
+      "vengo",
+      "vieni",
+      "viene",
+      "veniamo",
+      "venite",
+      "vengono"
+    ],
+    "past": [
+      "sono venuto",
+      "sei venuto",
+      "è venuto",
+      "siamo venuti",
+      "siete venuti",
+      "sono venuti"
+    ],
+    "imperative": [
+      "vieni",
+      "venite"
+    ],
+    "future": [
+      "verrò",
+      "verrai",
+      "verrà",
+      "verremo",
+      "verrete",
+      "verranno"
+    ],
+    "translation": "come"
+  },
+  {
+    "infinitive": "potere",
+    "irregular": true,
+    "present": [
+      "posso",
+      "puoi",
+      "può",
+      "possiamo",
+      "potete",
+      "possono"
+    ],
+    "past": [
+      "ho potuto",
+      "hai potuto",
+      "ha potuto",
+      "abbiamo potuto",
+      "avete potuto",
+      "hanno potuto"
+    ],
+    "imperative": [
+      "—",
+      "—"
+    ],
+    "future": [
+      "potrò",
+      "potrai",
+      "potrà",
+      "potremo",
+      "potrete",
+      "potranno"
+    ],
+    "translation": "can/may"
+  },
+  {
+    "infinitive": "dovere",
+    "irregular": true,
+    "present": [
+      "devo",
+      "devi",
+      "deve",
+      "dobbiamo",
+      "dovete",
+      "devono"
+    ],
+    "past": [
+      "ho dovuto",
+      "hai dovuto",
+      "ha dovuto",
+      "abbiamo dovuto",
+      "avete dovuto",
+      "hanno dovuto"
+    ],
+    "imperative": [
+      "—",
+      "—"
+    ],
+    "future": [
+      "dovrò",
+      "dovrai",
+      "dovrà",
+      "dovremo",
+      "dovrete",
+      "dovranno"
+    ],
+    "translation": "must/have to"
+  },
+  {
+    "infinitive": "volere",
+    "irregular": true,
+    "present": [
+      "voglio",
+      "vuoi",
+      "vuole",
+      "vogliamo",
+      "volete",
+      "vogliono"
+    ],
+    "past": [
+      "ho voluto",
+      "hai voluto",
+      "ha voluto",
+      "abbiamo voluto",
+      "avete voluto",
+      "hanno voluto"
+    ],
+    "imperative": [
+      "—",
+      "—"
+    ],
+    "future": [
+      "vorrò",
+      "vorrai",
+      "vorrà",
+      "vorremo",
+      "vorrete",
+      "vorranno"
+    ],
+    "translation": "want"
+  },
+  {
+    "infinitive": "sapere",
+    "irregular": true,
+    "present": [
+      "so",
+      "sai",
+      "sa",
+      "sappiamo",
+      "sapete",
+      "sanno"
+    ],
+    "past": [
+      "ho saputo",
+      "hai saputo",
+      "ha saputo",
+      "abbiamo saputo",
+      "avete saputo",
+      "hanno saputo"
+    ],
+    "imperative": [
+      "sappi",
+      "sappiate"
+    ],
+    "future": [
+      "saprò",
+      "saprai",
+      "saprà",
+      "sapremo",
+      "saprete",
+      "sapranno"
+    ],
+    "translation": "know (facts/how)"
+  },
+  {
+    "infinitive": "uscire",
+    "irregular": true,
+    "present": [
+      "esco",
+      "esci",
+      "esce",
+      "usciamo",
+      "uscite",
+      "escono"
+    ],
+    "past": [
+      "sono uscito",
+      "sei uscito",
+      "è uscito",
+      "siamo usciti",
+      "siete usciti",
+      "sono usciti"
+    ],
+    "imperative": [
+      "esci",
+      "uscite"
+    ],
+    "future": [
+      "uscirò",
+      "uscirai",
+      "uscirà",
+      "usciremo",
+      "uscirete",
+      "usciranno"
+    ],
+    "translation": "go out/exit"
+  },
+  {
+    "infinitive": "mettere",
+    "irregular": false,
+    "present": [
+      "metto",
+      "metti",
+      "mette",
+      "mettiamo",
+      "mettete",
+      "mettono"
+    ],
+    "past": [
+      "ho messo",
+      "hai messo",
+      "ha messo",
+      "abbiamo messo",
+      "avete messo",
+      "hanno messo"
+    ],
+    "imperative": [
+      "metti",
+      "mettete"
+    ],
+    "future": [
+      "metterò",
+      "metterai",
+      "metterà",
+      "metteremo",
+      "metterete",
+      "metteranno"
+    ],
+    "translation": "put"
+  },
+  {
+    "infinitive": "trovare",
+    "irregular": false,
+    "present": [
+      "trovo",
+      "trovi",
+      "trova",
+      "troviamo",
+      "trovate",
+      "trovano"
+    ],
+    "past": [
+      "ho trovato",
+      "hai trovato",
+      "ha trovato",
+      "abbiamo trovato",
+      "avete trovato",
+      "hanno trovato"
+    ],
+    "imperative": [
+      "trova",
+      "trovate"
+    ],
+    "future": [
+      "troverò",
+      "troverai",
+      "troverà",
+      "troveremo",
+      "troverete",
+      "troveranno"
+    ],
+    "translation": "find"
+  },
+  {
+    "infinitive": "pensare",
+    "irregular": false,
+    "present": [
+      "penso",
+      "pensi",
+      "pensa",
+      "pensiamo",
+      "pensate",
+      "pensano"
+    ],
+    "past": [
+      "ho pensato",
+      "hai pensato",
+      "ha pensato",
+      "abbiamo pensato",
+      "avete pensato",
+      "hanno pensato"
+    ],
+    "imperative": [
+      "pensa",
+      "pensate"
+    ],
+    "future": [
+      "penserò",
+      "penserai",
+      "penserà",
+      "penseremo",
+      "penserete",
+      "penseranno"
+    ],
+    "translation": "think"
+  },
+  {
+    "infinitive": "chiamare",
+    "irregular": false,
+    "present": [
+      "chiamo",
+      "chiami",
+      "chiama",
+      "chiamiamo",
+      "chiamate",
+      "chiamano"
+    ],
+    "past": [
+      "ho chiamato",
+      "hai chiamato",
+      "ha chiamato",
+      "abbiamo chiamato",
+      "avete chiamato",
+      "hanno chiamato"
+    ],
+    "imperative": [
+      "chiama",
+      "chiamate"
+    ],
+    "future": [
+      "chiamerò",
+      "chiamerai",
+      "chiamerà",
+      "chiameremo",
+      "chiamerete",
+      "chiameranno"
+    ],
+    "translation": "call"
+  },
+  {
+    "infinitive": "capire",
+    "irregular": false,
+    "present": [
+      "capisco",
+      "capisci",
+      "capisce",
+      "capiamo",
+      "capite",
+      "capiscono"
+    ],
+    "past": [
+      "ho capito",
+      "hai capito",
+      "ha capito",
+      "abbiamo capito",
+      "avete capito",
+      "hanno capito"
+    ],
+    "imperative": [
+      "capisci",
+      "capite"
+    ],
+    "future": [
+      "capirò",
+      "capirai",
+      "capirà",
+      "capiremo",
+      "capirete",
+      "capiranno"
+    ],
+    "translation": "understand"
+  },
+  {
+    "infinitive": "finire",
+    "irregular": false,
+    "present": [
+      "finisco",
+      "finisci",
+      "finisce",
+      "finiamo",
+      "finite",
+      "finiscono"
+    ],
+    "past": [
+      "ho finito",
+      "hai finito",
+      "ha finito",
+      "abbiamo finito",
+      "avete finito",
+      "hanno finito"
+    ],
+    "imperative": [
+      "finisci",
+      "finite"
+    ],
+    "future": [
+      "finirò",
+      "finirai",
+      "finirà",
+      "finiremo",
+      "finirete",
+      "finiranno"
+    ],
+    "translation": "finish"
+  },
+  {
+    "infinitive": "vivere",
+    "irregular": false,
+    "present": [
+      "vivo",
+      "vivi",
+      "vive",
+      "viviamo",
+      "vivete",
+      "vivono"
+    ],
+    "past": [
+      "ho vissuto",
+      "hai vissuto",
+      "ha vissuto",
+      "abbiamo vissuto",
+      "avete vissuto",
+      "hanno vissuto"
+    ],
+    "imperative": [
+      "vivi",
+      "vivete"
+    ],
+    "future": [
+      "vivrò",
+      "vivrai",
+      "vivrà",
+      "vivremo",
+      "vivrete",
+      "vivranno"
+    ],
+    "translation": "live"
+  },
+  {
+    "infinitive": "partire",
+    "irregular": false,
+    "present": [
+      "parto",
+      "parti",
+      "parte",
+      "partiamo",
+      "partite",
+      "partono"
+    ],
+    "past": [
+      "sono partito",
+      "sei partito",
+      "è partito",
+      "siamo partiti",
+      "siete partiti",
+      "sono partiti"
+    ],
+    "imperative": [
+      "parti",
+      "partite"
+    ],
+    "future": [
+      "partirò",
+      "partirai",
+      "partirà",
+      "partiremo",
+      "partirete",
+      "partiranno"
+    ],
+    "translation": "leave/depart"
+  },
+  {
+    "infinitive": "arrivare",
+    "irregular": false,
+    "present": [
+      "arrivo",
+      "arrivi",
+      "arriva",
+      "arriviamo",
+      "arrivate",
+      "arrivano"
+    ],
+    "past": [
+      "sono arrivato",
+      "sei arrivato",
+      "è arrivato",
+      "siamo arrivati",
+      "siete arrivati",
+      "sono arrivati"
+    ],
+    "imperative": [
+      "arriva",
+      "arrivate"
+    ],
+    "future": [
+      "arriverò",
+      "arriverai",
+      "arriverà",
+      "arriveremo",
+      "arriverete",
+      "arriveranno"
+    ],
+    "translation": "arrive"
+  },
+  {
+    "infinitive": "rimanere",
+    "irregular": true,
+    "present": [
+      "rimango",
+      "rimani",
+      "rimane",
+      "rimaniamo",
+      "rimanete",
+      "rimangono"
+    ],
+    "past": [
+      "sono rimasto",
+      "sei rimasto",
+      "è rimasto",
+      "siamo rimasti",
+      "siete rimasti",
+      "sono rimasti"
+    ],
+    "imperative": [
+      "rimani",
+      "rimanete"
+    ],
+    "future": [
+      "rimarrò",
+      "rimarrai",
+      "rimarrà",
+      "rimarremo",
+      "rimarrete",
+      "rimarranno"
+    ],
+    "translation": "stay/remain"
+  },
+  {
+    "infinitive": "giocare",
+    "irregular": false,
+    "present": [
+      "gioco",
+      "giochi",
+      "gioca",
+      "giochiamo",
+      "giocate",
+      "giocano"
+    ],
+    "past": [
+      "ho giocato",
+      "hai giocato",
+      "ha giocato",
+      "abbiamo giocato",
+      "avete giocato",
+      "hanno giocato"
+    ],
+    "imperative": [
+      "gioca",
+      "giocate"
+    ],
+    "future": [
+      "giocherò",
+      "giocherai",
+      "giocherà",
+      "giocheremo",
+      "giocherete",
+      "giocheranno"
+    ],
+    "translation": "play"
+  },
+  {
+    "infinitive": "aspettare",
+    "irregular": false,
+    "present": [
+      "aspetto",
+      "aspetti",
+      "aspetta",
+      "aspettiamo",
+      "aspettate",
+      "aspettano"
+    ],
+    "past": [
+      "ho aspettato",
+      "hai aspettato",
+      "ha aspettato",
+      "abbiamo aspettato",
+      "avete aspettato",
+      "hanno aspettato"
+    ],
+    "imperative": [
+      "aspetta",
+      "aspettate"
+    ],
+    "future": [
+      "aspetterò",
+      "aspetterai",
+      "aspetterà",
+      "aspetteremo",
+      "aspetterete",
+      "aspetteranno"
+    ],
+    "translation": "wait"
+  },
+  {
+    "infinitive": "portare",
+    "irregular": false,
+    "present": [
+      "porto",
+      "porti",
+      "porta",
+      "portiamo",
+      "portate",
+      "portano"
+    ],
+    "past": [
+      "ho portato",
+      "hai portato",
+      "ha portato",
+      "abbiamo portato",
+      "avete portato",
+      "hanno portato"
+    ],
+    "imperative": [
+      "porta",
+      "portate"
+    ],
+    "future": [
+      "porterò",
+      "porterai",
+      "porterà",
+      "porteremo",
+      "porterete",
+      "porteranno"
+    ],
+    "translation": "bring/carry/wear"
+  },
+  {
+    "infinitive": "lasciare",
+    "irregular": false,
+    "present": [
+      "lascio",
+      "lasci",
+      "lascia",
+      "lasciamo",
+      "lasciate",
+      "lasciano"
+    ],
+    "past": [
+      "ho lasciato",
+      "hai lasciato",
+      "ha lasciato",
+      "abbiamo lasciato",
+      "avete lasciato",
+      "hanno lasciato"
+    ],
+    "imperative": [
+      "lascia",
+      "lasciate"
+    ],
+    "future": [
+      "lascerò",
+      "lascerai",
+      "lascerà",
+      "lasceremo",
+      "lascerete",
+      "lasceranno"
+    ],
+    "translation": "leave/let"
+  },
+  {
+    "infinitive": "tornare",
+    "irregular": false,
+    "present": [
+      "torno",
+      "torni",
+      "torna",
+      "torniamo",
+      "tornate",
+      "tornano"
+    ],
+    "past": [
+      "sono tornato",
+      "sei tornato",
+      "è tornato",
+      "siamo tornati",
+      "siete tornati",
+      "sono tornati"
+    ],
+    "imperative": [
+      "torna",
+      "tornate"
+    ],
+    "future": [
+      "tornerò",
+      "tornerai",
+      "tornerà",
+      "torneremo",
+      "tornerete",
+      "torneranno"
+    ],
+    "translation": "return/come back"
+  },
+  {
+    "infinitive": "tenere",
+    "irregular": true,
+    "present": [
+      "tengo",
+      "tieni",
+      "tiene",
+      "teniamo",
+      "tenete",
+      "tengono"
+    ],
+    "past": [
+      "ho tenuto",
+      "hai tenuto",
+      "ha tenuto",
+      "abbiamo tenuto",
+      "avete tenuto",
+      "hanno tenuto"
+    ],
+    "imperative": [
+      "tieni",
+      "tenete"
+    ],
+    "future": [
+      "terrò",
+      "terrai",
+      "terrà",
+      "terremo",
+      "terrete",
+      "terranno"
+    ],
+    "translation": "hold/keep"
   }
 ]

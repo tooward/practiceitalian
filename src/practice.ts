@@ -111,12 +111,12 @@ export async function practiceMode(mode: 'present' | 'past' | 'future', rl: impo
   const title = mode === 'present' ? 'Present' : (mode === 'past' ? 'Past' : 'Future');
 
   console.log(
-    col(`\n${title} Tense – choose verb set:`, 'cyan'),
-    '\n1️⃣ Regular verbs',
-    '\n2️⃣ Irregular verbs',
-    '\n3️⃣ Mixed (all verbs)',
-    '\n4️⃣ Show all tables',
-    '\n5️⃣ Back to main menu'
+    col(`\n${title} Tense – choose verb set:\n`, 'cyan'),
+    '\n1️⃣\tRegular verbs',
+    '\n2️⃣\tIrregular verbs',
+    '\n3️⃣\tMixed (all verbs)',
+    '\n4️⃣\tShow all tables',
+    '\n5️⃣\tBack to main menu'
   );
   const choice = await new Promise<string>(r => rl.question('Select an option (1–5): ', r));
   const n = parseInt(choice.trim(), 10);
