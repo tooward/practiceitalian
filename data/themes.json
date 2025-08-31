@@ -14,7 +14,7 @@
       "label": "Cooking",
       "files": {
         "verbs": [],
-        "nouns": ["data/nouns_cooking_50.json"],
+        "nouns": ["data/nouns_cooking_50.jsonl"],
         "adjectives": ["data/adjectives_cooking_30.json"]
       }
     }
