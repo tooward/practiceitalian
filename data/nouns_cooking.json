@@ -1,0 +1,167 @@
+[
+  {
+    "id": "pane__n",
+    "pos": "noun",
+    "lemma": "pane",
+    "translation": [
+      "bread"
+    ],
+    "gender": "m",
+    "countability": "mass",
+    "forms": {
+      "sg": "il pane",
+      "pl": "i pani",
+      "bare": {
+        "sg": "pane",
+        "pl": "pani"
+      }
+    },
+    "invariable": false,
+    "irregular_plural": null,
+    "themes": [
+      "cooking"
+    ],
+    "examples": [
+      {
+        "it": "Mangio il pane.",
+        "en": "I eat bread."
+      }
+    ],
+    "metadata": {
+      "cefr": "A1",
+      "ipa": "/ˈpa.ne/"
+    }
+  },
+  {
+    "id": "pasta__n",
+    "pos": "noun",
+    "lemma": "pasta",
+    "translation": [
+      "pasta"
+    ],
+    "gender": "f",
+    "countability": "mass",
+    "forms": {
+      "sg": "la pasta",
+      "pl": "le paste",
+      "bare": {
+        "sg": "pasta",
+        "pl": "paste"
+      }
+    },
+    "invariable": false,
+    "irregular_plural": null,
+    "themes": [
+      "cooking"
+    ],
+    "examples": [
+      {
+        "it": "La pasta è pronta.",
+        "en": "The pasta is ready."
+      }
+    ],
+    "metadata": {
+      "cefr": "A1",
+      "ipa": "/ˈpas.ta/"
+    }
+  },
+  {
+    "id": "riso__n",
+    "pos": "noun",
+    "lemma": "riso",
+    "translation": [
+      "rice"
+    ],
+    "gender": "m",
+    "countability": "mass",
+    "forms": {
+      "sg": "il riso",
+      "pl": "i risi",
+      "bare": {
+        "sg": "riso",
+        "pl": "risi"
+      }
+    },
+    "invariable": false,
+    "irregular_plural": null,
+    "themes": [
+      "cooking"
+    ],
+    "examples": [
+      {
+        "it": "Il riso cuoce.",
+        "en": "The rice is cooking."
+      }
+    ],
+    "metadata": {
+      "cefr": "A1",
+      "ipa": "/ˈri.zo/"
+    }
+  },
+  {
+    "id": "zucchero__n",
+    "pos": "noun",
+    "lemma": "zucchero",
+    "translation": [
+      "sugar"
+    ],
+    "gender": "m",
+    "countability": "mass",
+    "forms": {
+      "sg": "lo zucchero",
+      "pl": "gli zuccheri",
+      "bare": {
+        "sg": "zucchero",
+        "pl": "zuccheri"
+      }
+    },
+    "invariable": false,
+    "irregular_plural": null,
+    "themes": [
+      "cooking"
+    ],
+    "examples": [
+      {
+        "it": "Aggiungo lo zucchero al caffè.",
+        "en": "I add sugar to the coffee."
+      }
+    ],
+    "metadata": {
+      "cefr": "A1",
+      "ipa": "/ˈdzuk.ke.ro/"
+    }
+  },
+  {
+    "id": "sale__n",
+    "pos": "noun",
+    "lemma": "sale",
+    "translation": [
+      "salt"
+    ],
+    "gender": "m",
+    "countability": "mass",
+    "forms": {
+      "sg": "il sale",
+      "pl": "i sali",
+      "bare": {
+        "sg": "sale",
+        "pl": "sali"
+      }
+    },
+    "invariable": false,
+    "irregular_plural": null,
+    "themes": [
+      "cooking"
+    ],
+    "examples": [
+      {
+        "it": "Metti un po’ di sale.",
+        "en": "Add a bit of salt."
+      }
+    ],
+    "metadata": {
+      "cefr": "A1",
+      "ipa": "/ˈsa.le/"
+    }
+  }
+]

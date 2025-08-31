@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["id","pos","lemma","translation","type","position"],
+  "properties": {
+    "id": { "type": "string" },
+    "pos": { "const": "adj" },
+    "lemma": { "type": "string" },
+    "translation": { "oneOf": [{ "type": "string" }, { "type": "array", "items": { "type": "string" } }] },
+    "type": { "enum": ["variable","invariable","irregular"] },
+    "forms": { "type": "object", "properties": {
+      "ms": {"type":"string"}, "mp": {"type":"string"}, "fs": {"type":"string"}, "fp": {"type":"string"}
+    }},
+    "apocopated": { "type": "object" },
+    "position": { "enum": ["pre","post","variable"] },
+    "comparatives": { "type": "object" },
+    "adverbial": { "type": "string" },
+    "themes": { "type": "array", "items": { "type": "string" } },
+    "examples": {
+      "type": "array",
+      "items": { "type": "object", "required": ["it","en"], "properties": {"it":{"type":"string"},"en":{"type":"string"}} }
+    },
+    "metadata": { "type": "object" }
+  }
+}

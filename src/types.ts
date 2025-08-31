@@ -12,6 +12,50 @@ export interface Verb {
   imperative?: [string, string]; // [tu, voi]
 }
 
+// Shared/meta types for themed practice
+export type Pos = 'verb' | 'noun' | 'adjective';
+export type Translation = string | string[]; // normalize at load time to string[]
+
+export interface CategoryRef {
+  id: string;
+  label: string;
+  files: Partial<Record<'verbs' | 'nouns' | 'adjectives', string[]>>;
+}
+
+// Noun based on noun.schema.json
+export interface Noun {
+  id: string;
+  pos: 'noun';
+  lemma: string;
+  translation: Translation;
+  gender: 'm' | 'f';
+  countability?: 'count' | 'mass' | 'both';
+  forms: {
+    sg: string;
+    pl: string;
+    bare: { sg: string; pl: string };
+  };
+  invariable?: boolean;
+  irregular_plural?: string | null;
+  initial_sound_class?: 'vowel' | 's+cons' | 'z' | 'ps' | 'gn' | 'x' | 'other';
+  themes?: string[];
+}
+
+// Adjective based on adjective.schema.json
+export interface Adjective {
+  id: string;
+  pos: 'adj';
+  lemma: string;
+  translation: Translation;
+  type: 'variable' | 'invariable' | 'irregular';
+  forms?: { ms?: string; mp?: string; fs?: string; fp?: string };
+  apocopated?: Record<string, unknown>;
+  position: 'pre' | 'post' | 'variable';
+  comparatives?: Record<string, unknown>;
+  adverbial?: string;
+  themes?: string[];
+}
+
 export interface ProgressCell {
   correct: number;
   attempts: number;

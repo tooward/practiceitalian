@@ -7,17 +7,21 @@ import { ConjugationExercise, InfinitiveTypingExercise, TranslationExercise } fr
 import { Session } from './session';
 import { Tense } from '../types';
 import { FlowRunner } from './flow';
-import { FilterScene, MainMenuScene, SessionScene, WarmupOnlyScene } from './scenes';
+import { AdjectivesPracticeScene, CategorySelectionScene, FilterScene, MainMenuScene, NounsPracticeScene, SessionScene, WarmupOnlyScene } from './scenes';
+import { DataRepository, ThemesRepository } from './repository';
 
 export class App {
   async run(
     tense: Tense = 'present',
     filter: 'regular'|'irregular'|'all' = 'all',
-    ui?: UI
+  ui?: UI,
+  categoryId?: string
   ): Promise<void> {
     const ownUI = !ui;
     ui = ui || new ConsoleUI();
-    const repo = new FileVerbRepository();
+  const dataRepo = new DataRepository(new ThemesRepository());
+  const themedVerbs = categoryId ? dataRepo.loadVerbs(categoryId) : [];
+  const repo = themedVerbs.length ? { getAll: () => themedVerbs } as FileVerbRepository : new FileVerbRepository();
     const progress = new JsonProgressStore();
     const scheduler = new Scheduler(progress);
 
@@ -30,7 +34,7 @@ export class App {
       new ConjugationExercise(),
     ];
 
-    const session = new Session({
+  const session = new Session({
       title: `${tense.toUpperCase()} Tense – ${filter}`,
       batch,
       exercises,
@@ -48,18 +52,21 @@ export class App {
     ui = ui || new ConsoleUI();
     const runner = new FlowRunner({ ui });
     runner
+      .register('category', () => new CategorySelectionScene(ui as UI))
       .register('main', () => new MainMenuScene(ui as UI))
       .register('filter', () => new FilterScene(ui as UI))
       .register('session', () => new SessionScene(ui as UI, this))
-      .register('warmup', () => new WarmupOnlyScene(ui as UI, this));
-    await runner.start('main');
+      .register('warmup', () => new WarmupOnlyScene(ui as UI, this))
+      .register('nouns', () => new NounsPracticeScene(ui as UI))
+      .register('adjectives', () => new AdjectivesPracticeScene(ui as UI));
+    await runner.start('category');
     if (ownUI) ui.close();
   }
 
   async runWarmupOnly(ui?: UI): Promise<void> {
     const ownUI = !ui;
     ui = ui || new ConsoleUI();
-    const repo = new FileVerbRepository();
+  const repo = new FileVerbRepository();
     const progress = new JsonProgressStore();
     const scheduler = new Scheduler(progress);
 

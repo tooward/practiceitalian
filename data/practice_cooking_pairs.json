@@ -1,0 +1,452 @@
+[
+  {
+    "noun": "fragola",
+    "adjective": "piccante",
+    "plural": true,
+    "sentence": {
+      "it": "Le fragolae è piccanti.",
+      "en": "The strawberrys is spicy."
+    }
+  },
+  {
+    "noun": "forchetta",
+    "adjective": "croccante",
+    "plural": false,
+    "sentence": {
+      "it": "La forchetta è croccante.",
+      "en": "The fork is crispy."
+    }
+  },
+  {
+    "noun": "birra",
+    "adjective": "vuoto",
+    "plural": true,
+    "sentence": {
+      "it": "Le birrae è vuote.",
+      "en": "The beers is empty."
+    }
+  },
+  {
+    "noun": "insalata",
+    "adjective": "vecchio",
+    "plural": true,
+    "sentence": {
+      "it": "Le insalatae è vecchie.",
+      "en": "The salads is old."
+    }
+  },
+  {
+    "noun": "zucchero",
+    "adjective": "piccante",
+    "plural": false,
+    "sentence": {
+      "it": "Il zucchero è piccante.",
+      "en": "The sugar is spicy."
+    }
+  },
+  {
+    "noun": "formaggio",
+    "adjective": "nuovo",
+    "plural": false,
+    "sentence": {
+      "it": "Il formaggio è nuovo.",
+      "en": "The cheese is new."
+    }
+  },
+  {
+    "noun": "pera",
+    "adjective": "leggero",
+    "plural": false,
+    "sentence": {
+      "it": "La pera è leggera.",
+      "en": "The pear is light."
+    }
+  },
+  {
+    "noun": "pasta",
+    "adjective": "fresco",
+    "plural": true,
+    "sentence": {
+      "it": "Le pastae è fresche.",
+      "en": "The pastas is fresh."
+    }
+  },
+  {
+    "noun": "patata",
+    "adjective": "vuoto",
+    "plural": true,
+    "sentence": {
+      "it": "Le patatae è vuote.",
+      "en": "The potatos is empty."
+    }
+  },
+  {
+    "noun": "cucchiaio",
+    "adjective": "duro",
+    "plural": false,
+    "sentence": {
+      "it": "Il cucchiaio è duro.",
+      "en": "The spoon is hard."
+    }
+  },
+  {
+    "noun": "pentola",
+    "adjective": "veloce",
+    "plural": false,
+    "sentence": {
+      "it": "La pentola è veloce.",
+      "en": "The pot is quick."
+    }
+  },
+  {
+    "noun": "pomodoro",
+    "adjective": "lento",
+    "plural": true,
+    "sentence": {
+      "it": "I pomodoroi è lenti.",
+      "en": "The tomatos is slow."
+    }
+  },
+  {
+    "noun": "pane",
+    "adjective": "freddo",
+    "plural": false,
+    "sentence": {
+      "it": "Il pane è freddo.",
+      "en": "The bread is cold."
+    }
+  },
+  {
+    "noun": "limone",
+    "adjective": "leggero",
+    "plural": true,
+    "sentence": {
+      "it": "I limonei è leggeri.",
+      "en": "The lemons is light."
+    }
+  },
+  {
+    "noun": "zuppa",
+    "adjective": "pesante",
+    "plural": false,
+    "sentence": {
+      "it": "La zuppa è pesante.",
+      "en": "The soup is heavy."
+    }
+  },
+  {
+    "noun": "sale",
+    "adjective": "morbido",
+    "plural": false,
+    "sentence": {
+      "it": "Il sale è morbido.",
+      "en": "The salt is soft."
+    }
+  },
+  {
+    "noun": "forchetta",
+    "adjective": "bagnato",
+    "plural": true,
+    "sentence": {
+      "it": "Le forchettae è bagnate.",
+      "en": "The forks is wet."
+    }
+  },
+  {
+    "noun": "pomodoro",
+    "adjective": "bagnato",
+    "plural": true,
+    "sentence": {
+      "it": "I pomodoroi è bagnati.",
+      "en": "The tomatos is wet."
+    }
+  },
+  {
+    "noun": "torta",
+    "adjective": "pesante",
+    "plural": true,
+    "sentence": {
+      "it": "Le tortae è pesanti.",
+      "en": "The cakes is heavy."
+    }
+  },
+  {
+    "noun": "burro",
+    "adjective": "morbido",
+    "plural": false,
+    "sentence": {
+      "it": "Il burro è morbido.",
+      "en": "The butter is soft."
+    }
+  },
+  {
+    "noun": "peperone",
+    "adjective": "nuovo",
+    "plural": true,
+    "sentence": {
+      "it": "I peperonei è nuovi.",
+      "en": "The pepper (veg)s is new."
+    }
+  },
+  {
+    "noun": "peperone",
+    "adjective": "amaro",
+    "plural": true,
+    "sentence": {
+      "it": "I peperonei è amari.",
+      "en": "The pepper (veg)s is bitter."
+    }
+  },
+  {
+    "noun": "piatto",
+    "adjective": "grande",
+    "plural": true,
+    "sentence": {
+      "it": "I piattoi è grandi.",
+      "en": "The plate/dishs is big."
+    }
+  },
+  {
+    "noun": "cucina",
+    "adjective": "corto",
+    "plural": false,
+    "sentence": {
+      "it": "La cucina è corta.",
+      "en": "The kitchen is short."
+    }
+  },
+  {
+    "noun": "zuppa",
+    "adjective": "buono",
+    "plural": false,
+    "sentence": {
+      "it": "La zuppa è buona.",
+      "en": "The soup is good/tasty."
+    }
+  },
+  {
+    "noun": "padella",
+    "adjective": "morbido",
+    "plural": false,
+    "sentence": {
+      "it": "La padella è morbida.",
+      "en": "The pan is soft."
+    }
+  },
+  {
+    "noun": "pepe",
+    "adjective": "buono",
+    "plural": false,
+    "sentence": {
+      "it": "Il pepe è buono.",
+      "en": "The pepper (spice) is good/tasty."
+    }
+  },
+  {
+    "noun": "mela",
+    "adjective": "piccolo",
+    "plural": true,
+    "sentence": {
+      "it": "Le melae è piccole.",
+      "en": "The apples is small."
+    }
+  },
+  {
+    "noun": "aglio",
+    "adjective": "morbido",
+    "plural": true,
+    "sentence": {
+      "it": "I aglioi è morbidi.",
+      "en": "The garlics is soft."
+    }
+  },
+  {
+    "noun": "forchetta",
+    "adjective": "ricco",
+    "plural": true,
+    "sentence": {
+      "it": "Le forchettae è ricche.",
+      "en": "The forks is rich."
+    }
+  },
+  {
+    "noun": "pollo",
+    "adjective": "morbido",
+    "plural": true,
+    "sentence": {
+      "it": "I polloi è morbidi.",
+      "en": "The chickens is soft."
+    }
+  },
+  {
+    "noun": "zuppa",
+    "adjective": "veloce",
+    "plural": false,
+    "sentence": {
+      "it": "La zuppa è veloce.",
+      "en": "The soup is quick."
+    }
+  },
+  {
+    "noun": "peperone",
+    "adjective": "caro",
+    "plural": true,
+    "sentence": {
+      "it": "I peperonei è cari.",
+      "en": "The pepper (veg)s is expensive."
+    }
+  },
+  {
+    "noun": "pepe",
+    "adjective": "grande",
+    "plural": true,
+    "sentence": {
+      "it": "I pepei è grandi.",
+      "en": "The pepper (spice)s is big."
+    }
+  },
+  {
+    "noun": "aglio",
+    "adjective": "corto",
+    "plural": false,
+    "sentence": {
+      "it": "Il aglio è corto.",
+      "en": "The garlic is short."
+    }
+  },
+  {
+    "noun": "padella",
+    "adjective": "ricco",
+    "plural": false,
+    "sentence": {
+      "it": "La padella è ricca.",
+      "en": "The pan is rich."
+    }
+  },
+  {
+    "noun": "latte",
+    "adjective": "veloce",
+    "plural": false,
+    "sentence": {
+      "it": "Il latte è veloce.",
+      "en": "The milk is quick."
+    }
+  },
+  {
+    "noun": "aglio",
+    "adjective": "fresco",
+    "plural": false,
+    "sentence": {
+      "it": "Il aglio è fresco.",
+      "en": "The garlic is fresh."
+    }
+  },
+  {
+    "noun": "patata",
+    "adjective": "morbido",
+    "plural": false,
+    "sentence": {
+      "it": "La patata è morbida.",
+      "en": "The potato is soft."
+    }
+  },
+  {
+    "noun": "vino",
+    "adjective": "cattivo",
+    "plural": false,
+    "sentence": {
+      "it": "Il vino è cattivo.",
+      "en": "The wine is bad."
+    }
+  },
+  {
+    "noun": "pesce",
+    "adjective": "salato",
+    "plural": true,
+    "sentence": {
+      "it": "I pescei è salati.",
+      "en": "The fishs is salty."
+    }
+  },
+  {
+    "noun": "salsa",
+    "adjective": "croccante",
+    "plural": false,
+    "sentence": {
+      "it": "La salsa è croccante.",
+      "en": "The sauce is crispy."
+    }
+  },
+  {
+    "noun": "latte",
+    "adjective": "cattivo",
+    "plural": true,
+    "sentence": {
+      "it": "I lattei è cattivi.",
+      "en": "The milks is bad."
+    }
+  },
+  {
+    "noun": "cucina",
+    "adjective": "salato",
+    "plural": false,
+    "sentence": {
+      "it": "La cucina è salata.",
+      "en": "The kitchen is salty."
+    }
+  },
+  {
+    "noun": "formaggio",
+    "adjective": "croccante",
+    "plural": false,
+    "sentence": {
+      "it": "Il formaggio è croccante.",
+      "en": "The cheese is crispy."
+    }
+  },
+  {
+    "noun": "olio",
+    "adjective": "freddo",
+    "plural": false,
+    "sentence": {
+      "it": "Il olio è freddo.",
+      "en": "The oil is cold."
+    }
+  },
+  {
+    "noun": "torta",
+    "adjective": "secco",
+    "plural": true,
+    "sentence": {
+      "it": "Le tortae è secche.",
+      "en": "The cakes is dry."
+    }
+  },
+  {
+    "noun": "fungo",
+    "adjective": "salato",
+    "plural": true,
+    "sentence": {
+      "it": "I fungoi è salati.",
+      "en": "The mushrooms is salty."
+    }
+  },
+  {
+    "noun": "melanzana",
+    "adjective": "caldo",
+    "plural": false,
+    "sentence": {
+      "it": "La melanzana è calda.",
+      "en": "The eggplant is hot."
+    }
+  },
+  {
+    "noun": "cucchiaio",
+    "adjective": "lento",
+    "plural": false,
+    "sentence": {
+      "it": "Il cucchiaio è lento.",
+      "en": "The spoon is slow."
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "themes": [
+    {
+      "id": "basic",
+      "label": "Basic",
+      "files": {
+        "verbs": ["verbs.json"],
+        "nouns": [],
+        "adjectives": []
+      }
+    },
+    {
+      "id": "cooking",
+      "label": "Cooking",
+      "files": {
+        "verbs": [],
+        "nouns": ["data/nouns_cooking_50.json"],
+        "adjectives": ["data/adjectives_cooking_30.json"]
+      }
+    }
+  ]
+}

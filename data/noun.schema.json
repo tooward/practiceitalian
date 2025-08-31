@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["id","pos","lemma","translation","gender","forms"],
+  "properties": {
+    "id": { "type": "string" },
+    "pos": { "const": "noun" },
+    "lemma": { "type": "string" },
+    "translation": { "oneOf": [{ "type": "string" }, { "type": "array", "items": { "type": "string" } }] },
+    "gender": { "enum": ["m","f"] },
+    "countability": { "enum": ["count","mass","both"] },
+    "forms": {
+      "type": "object",
+      "required": ["sg","pl","bare"],
+      "properties": {
+        "sg": { "type": "string" },
+        "pl": { "type": "string" },
+        "bare": {
+          "type": "object",
+          "required": ["sg","pl"],
+          "properties": { "sg": { "type": "string" }, "pl": { "type": "string" } }
+        }
+      }
+    },
+    "invariable": { "type": "boolean" },
+    "irregular_plural": { "type": ["string","null"] },
+    "initial_sound_class": { "enum": ["vowel","s+cons","z","ps","gn","x","other"] },
+    "themes": { "type": "array", "items": { "type": "string" } },
+    "examples": {
+      "type": "array",
+      "items": { "type": "object", "required": ["it","en"], "properties": {"it":{"type":"string"},"en":{"type":"string"}} }
+    },
+    "metadata": { "type": "object" }
+  }
+}

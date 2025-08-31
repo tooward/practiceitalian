@@ -98,5 +98,113 @@
         "correct": 1
       }
     }
+  },
+  "nouns": {
+    "pane__n": {
+      "lex": {
+        "it2en": {
+          "attempts": 1,
+          "correct": 1
+        }
+      }
+    },
+    "pasta__n": {
+      "lex": {
+        "it2en": {
+          "attempts": 1,
+          "correct": 1
+        }
+      }
+    },
+    "riso__n": {
+      "lex": {
+        "en2it": {
+          "attempts": 1,
+          "correct": 0
+        }
+      }
+    },
+    "zucchero__n": {
+      "lex": {
+        "it2en": {
+          "attempts": 1,
+          "correct": 0
+        }
+      }
+    },
+    "sale__n": {
+      "lex": {
+        "it2en": {
+          "attempts": 1,
+          "correct": 1
+        }
+      }
+    },
+    "olio__n": {
+      "lex": {
+        "it2en": {
+          "attempts": 1,
+          "correct": 1
+        }
+      }
+    },
+    "burro__n": {
+      "lex": {
+        "en2it": {
+          "attempts": 1,
+          "correct": 1
+        }
+      }
+    },
+    "formaggio__n": {
+      "lex": {
+        "en2it": {
+          "attempts": 1,
+          "correct": 1
+        }
+      }
+    },
+    "latte__n": {
+      "lex": {
+        "en2it": {
+          "attempts": 1,
+          "correct": 1
+        }
+      }
+    },
+    "uovo__n": {
+      "lex": {
+        "it2en": {
+          "attempts": 1,
+          "correct": 1
+        }
+      }
+    }
+  },
+  "adjectives": {
+    "buono__adj": {
+      "lex": {
+        "en2it": {
+          "attempts": 1,
+          "correct": 1
+        }
+      }
+    },
+    "cattivo__adj": {
+      "lex": {
+        "en2it": {
+          "attempts": 1,
+          "correct": 1
+        }
+      }
+    },
+    "caldo__adj": {
+      "lex": {
+        "it2en": {
+          "attempts": 1,
+          "correct": 0
+        }
+      }
+    }
   }
 }
