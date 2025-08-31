@@ -2,7 +2,7 @@
 import { UI } from './ui';
 import { Adjective } from '../types';
 import { isCorrect as fuzzy } from '../util';
-import { AdjFormKey, AdjectiveProgressStore, JsonAdjectiveProgressStore } from './adjProgress';
+import { AdjFormKey, AdjectiveProgressStore } from './adjProgress';
 
 function normalizeTranslations(t: Adjective['translation']): string[] {
   if (Array.isArray(t)) return t;

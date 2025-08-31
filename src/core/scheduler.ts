@@ -1,6 +1,8 @@
 // scheduler.ts – choose what to practice next
 import { Verb } from '../types';
 import { ProgressStore } from './progress';
+import type { Random } from './random';
+import { defaultRandom } from './random';
 
 export interface ScheduleOptions {
   batchSize?: number;
@@ -11,7 +13,7 @@ export interface ScheduleOptions {
 }
 
 export class Scheduler {
-  constructor(private progress: ProgressStore) {}
+  constructor(private progress: ProgressStore, private rand: Random = defaultRandom) {}
 
   pickBatch(verbs: Verb[], opts: ScheduleOptions): Verb[] {
     const size = opts.batchSize ?? 10;
@@ -60,7 +62,7 @@ export class Scheduler {
   private shuffle<T>(arr: T[]): T[] {
     const out = [...arr];
     for (let i = out.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
+      const j = Math.floor(this.rand.next() * (i + 1));
       [out[i], out[j]] = [out[j], out[i]];
     }
     return out;

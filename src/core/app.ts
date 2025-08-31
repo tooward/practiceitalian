@@ -4,6 +4,7 @@ import { FileVerbRepository } from './repository';
 import { JsonProgressStore } from './progress';
 import { Scheduler } from './scheduler';
 import { ConjugationExercise, InfinitiveTypingExercise, TranslationExercise } from './exercises';
+import { defaultRandom } from './random';
 import { Session } from './session';
 import { Tense } from '../types';
 import { FlowRunner } from './flow';
@@ -29,9 +30,9 @@ export class App {
   const batch = scheduler.pickBatch(verbs, { tense, filter, batchSize: 10, preferLexicalAttempts: true });
 
     const exercises = [
-      new InfinitiveTypingExercise(),
-      new TranslationExercise(),
-      new ConjugationExercise(),
+  new InfinitiveTypingExercise(),
+  new TranslationExercise(defaultRandom),
+  new ConjugationExercise(defaultRandom),
     ];
 
   const session = new Session({

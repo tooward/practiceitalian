@@ -1,7 +1,7 @@
 // nouns.exercises.ts – drills for nouns: translation, forms, gender
 import { UI } from './ui';
-import { Adjective, Noun } from '../types';
-import { JsonNounProgressStore, NounProgressStore } from './nounProgress';
+import { Noun } from '../types';
+import { NounProgressStore } from './nounProgress';
 import { isCorrect as fuzzy } from '../util';
 
 function normalizeTranslations(t: Noun['translation']): string[] {
